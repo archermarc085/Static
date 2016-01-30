@@ -17,7 +17,7 @@ namespace Task2_3.Extensions
                 {
                     int j = i + d;
                     int temp = array[j];
-                    while (j >= d && temp < array[j - d])//changim >
+                    while (j >= d && temp < array[j - d])
                     {
                         array[j] = array[j - d];
                         array[j - d] = temp;
